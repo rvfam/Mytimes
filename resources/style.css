@@ -1,0 +1,226 @@
+
+
+.header{
+  margin-top:0px;
+  margin-left:0px;
+  font-family:verdana;
+  font-size:14px;
+  font-weight: bold;
+  display:flex;
+  flex-basis: content;
+  align-items:center;
+  position:fixed;
+  width:100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color:white;
+  z-index:5;
+  }
+
+.header #logo{
+  color:mediumaquamarine;
+
+border:1px solid black;
+}
+.header h5{
+  width:900px;
+  height:20px;
+  color:mediumaquamarine;
+  border:1px solid black;
+/*  justify-content: space-between;*/
+  padding:20px;
+}
+nav span{
+  display:inline-block;
+  padding: 40px 10px;
+
+}
+ nav span  a{
+color:black;
+}
+
+.maincontainer{
+/*  position:absolute;
+  margin-top:80px;
+  margin-left:100px;*/
+  display:flex;
+  align-content:space-between;
+      width:1200px;
+  height:1200px;
+  border: 1px solid black;
+  z-index:15;
+}
+
+.column-large{
+/*  position:relative;
+  top:80px;
+  left:0px;*/
+  display:flex;
+  flex-direction:column;
+  flex-flow: wrap;
+  flex-basis: auto;
+  width:630px;
+
+}
+.column-medium{
+/*  position: relative;
+  top:150px;
+  left:650px;*/
+  display:flex;
+  flex-direction:column;
+  flex-flow:wrap;
+  flex-basis: auto;
+  width:300px;
+}
+.column-small{
+/*  position: relative;
+  top:80px;
+  left:950px;*/
+  display:flex;
+  flex-direction:column;
+  flex-flow:wrap;
+  flex-basis: auto;
+    width:240px;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+ .column-large .main-story {
+   margin-top:85px;
+   margin-left:10px;
+   background-image:url("images/img-story-main.png");
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position:fixed;
+   border:1px solid black;
+   width:500px;
+   height:200px;
+   }
+
+ .column-large .main-story span{
+    font-family:Georgia;
+  font-size:40px;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+}
+
+
+.column-large .main-story p{
+  font-family:Georgia;
+  font-size:17px;
+  color:black;
+  word-wrap:break-word;
+  width:400px;
+  text-align:left;
+}
+
+.column-large .story-earth{
+ display:inline-block;
+  background-image:url("images/img-story-2.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:fixed;
+  border:1px solid black;
+  width:200px;
+  height:200px;
+}
+.column-large .earth-camera{
+  width:500px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  /*align-items: baseline;*/
+}
+
+
+
+.column-large .story-camera{
+ display:flex;
+/*  flex-shrink:2;*/
+  background-image:url("images/img-story-3.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:fixed;
+  border:1px solid black;
+  width:200px;
+  height:200px;
+}
+
+.story-camera span, .story-earth span, .story-cats span{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family:Georgia;
+  font-size:30px;
+  font-weight:bold;
+  color:white;
+}
+.column-large .story-burger p{
+  font-family:Georgia;
+  font-size:17px;
+  color:black;
+  word-wrap: break-word;
+  width:200px;
+  text-align:left;
+}
+.column-large .story-orca p{
+  font-family:Georgia;
+  font-size:17px;
+  color:black;
+  word-wrap: break-word;
+  width:200px;
+  text-align:left;
+}
+
+.orca-burger{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  width:500px;
+  /*align-items: baseline;*/
+}
+
+.column-large .story-burger, .story-orca{
+  width:200px;
+  height:200px;
+/* display:inline-block;
+ display:flex;
+  flex-shrink:2;*/
+}
+.column-medium .story-actionstarr{
+  display:flex;
+
+  flex-flow:wrap;
+
+}
+
+.column-medium .story-cats{
+  display:flex;
+background-image:url("images/img-story-1.png");
+background-size:cover;
+background-repeat:no-repeat;
+background-position:fixed;
+border:1px solid black;
+width:200px;
+height:200px;
+}
+
+.column-small ul #newsbite{
+  font-size: 16px;
+font-weight: bold;
+
+}
+.column-small ul li{
+
+  list-style: none;
+  padding: 10px;
+  background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+border-bottom:1px solid black;
+}
+
+.footer{
+
+}
